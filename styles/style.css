@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #212529;
+
+}
+
+/*COMEÇO DO TOP*/
+.t_top{ /*TOP 5 FILMES DA SEMANA*/
+    display: grid;
+    justify-content: center;
+    background-color: #212529;
+    color: white;
+    margin-top: 10px;
+    bottom: 10px;
+    font-size: 25px;
+}
+    
+    .t_breve{ /*LANÇAMENTOS*/
+        display: flex;
+        justify-content: center;
+        color: white;
+        background-color: #212529;
+        margin-top: 10px;
+        bottom: 10px;
+        font-size: 25px;
+    }
+    
+    .trailers{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        border: 1px solid #212529;
+        gap: 5px;
+        padding: 30px;
+        
+    
+    }
+    
+    
+    .t_trailers{ /*TRAILERS*/
+        display: flex;
+        justify-content: center;
+        background-color: #212529;
+        color: white;
+        margin-top: 10px;
+
+        bottom: 10px;
+        font-size: 25px;
+    }
+    
+    .t_redes{
+        display: flex;
+        justify-content: center;
+        background-color: #212529;
+        color: white;
+        margin-top: 10px;
+        bottom: 10px;
+        font-size: 25px;
+        }
+    
+    
+        
+        .rodape{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: center;
+            color: white;
+            font-size: 7px;
+            left: 440px;
+            top: 10px;
+        }
+
+        .link1{
+            display: flex;
+            position: absolute;
+            text-decoration: none;
+            color: #212529;
+            left: 40px;
+            top: 2570px;
+            font-size: 25px;
+        
+        }
+
+        .link2{
+            display: flex;
+            position: absolute;
+            text-decoration: none;
+            color: #212529;
+            left: 380px;
+            top: 2570px;
+            font-size: 25px;
+        
+        }
+
+        .link3{
+            display: flex;
+            position: absolute;
+            text-decoration: none;
+            color: #212529;
+            left: 720px;
+            top: 2570px;
+            font-size: 25px;
+        
+        }
+
+        .link4{
+            display: flex;
+            position: absolute;
+            text-decoration: none;
+            color: #212529;
+            left: 1060px;
+            top: 2570px;
+            font-size: 25px;
+        
+        }
+    
