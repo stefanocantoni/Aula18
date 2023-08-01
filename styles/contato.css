@@ -48,10 +48,9 @@ text-align: center;
 }
 
 .apresentação1{
-    border: solid black;
+    border: solid hwb(0 50% 50% / 0.185);
     border-radius: 8px;
-    background-color: #212529;
-    color: white;
+    color: black;
     display: flex;
     margin-top: 20px;
     text-align: justify;
