@@ -30,16 +30,20 @@ body{
         font-size: 25px;
     }
     
-    .trailers{
+    /*.trailers{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        border: 1px solid #212529;
+        border: 1px solid black;
+        border-radius: 15px;
         gap: 5px;
         padding: 30px;
         font-size: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #212529;
         
     
-    }
+    }*/
     
     
     .t_trailers{ /*TRAILERS*/
@@ -73,6 +77,8 @@ body{
             font-size: 7px;
             left: 440px;
             top: 10px;
+            background-color: #212529;
+            color: white;
         }
 
         .link1{
@@ -81,9 +87,9 @@ body{
             text-decoration: none;
             color: #212529;
             left: 40px;
-            top: 2570px;
+            top: 2940px;
             font-size: 25px;
-        
+            color: white;
         }
 
         .link2{
@@ -92,9 +98,9 @@ body{
             text-decoration: none;
             color: #212529;
             left: 380px;
-            top: 2570px;
+            top: 2940px;
             font-size: 25px;
-        
+            color: white;
         }
 
         .link3{
@@ -103,9 +109,9 @@ body{
             text-decoration: none;
             color: #212529;
             left: 720px;
-            top: 2570px;
+            top: 2940px;
             font-size: 25px;
-        
+            color: white;
         }
 
         .link4{
@@ -114,8 +120,8 @@ body{
             text-decoration: none;
             color: #212529;
             left: 1060px;
-            top: 2570px;
+            top: 2940px;
             font-size: 25px;
-        
+            color: white;
         }
     
