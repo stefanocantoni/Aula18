@@ -19,8 +19,8 @@ padding: 10px;
 .cx_nome{
 display: flex;
 position: relative;
-margin-left: 10px;
-margin-left: 10px;
+left: 10px;
+
 justify-content: center;
 }
 
