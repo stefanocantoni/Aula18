@@ -19,38 +19,41 @@
                   <img src="image/CloudFilms - Logo.png" alt="Logo" width="80" height="70">
              
       
-      <nav class="navbar m-auto navbar-expand-lg nav-bar dark bg-dark">
-        <div class="container-fluid">
-          <a class="nav-link active text-white" href="index.html">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="contato.html">Contatos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-white" href="infodosite.html">Termos&Privacidade</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="categorias" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categorias
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Ação</a></li>
-                  <li><a class="dropdown-item" href="#">Terror</a></li>
-      
-                 <!-- <li><hr class="dropdown-divider"></li>-->
-      
-                  <li><a class="dropdown-item" href="#">Comédia</a></li>
-                  <li><a class="dropdown-item" href="#">Romance</a></li>
-                  <li><a class="dropdown-item" href="#">Suspense</a></li>
-                  <li><a class="dropdown-item" href="#">Infantil</a></li>
-                </ul>
-              </li>
-            
-            </ul>
+                  <nav class="navbar m-auto navbar-expand-lg nav-bar dark bg-dark">
+                    <div class="container-fluid">
+                      <a class="nav-link active text-white" href="index.html"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
+                          <li class="nav-item">
+                            <a class="nav-link active text-white" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="contato.html">Contatos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-white" href="infodosite.html">Termos&Privacidade</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="categorias" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Categorias
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                              <li><a class="dropdown-item color" href="#">Ação</a></li>
+                              <li><a class="dropdown-item" href="#">Terror</a></li>
+                  
+                             <!-- <li><hr class="dropdown-divider"></li>-->
+                  
+                              <li><a class="dropdown-item" href="#">Comédia</a></li>
+                              <li><a class="dropdown-item" href="#">Romance</a></li>
+                              <li><a class="dropdown-item" href="#">Suspense</a></li>
+                              <li><a class="dropdown-item" href="#">Infantil</a></li>
+                            </ul>
+                          </li>
+                        
+                        </ul>
             <form class="d-flex"  role="search">
               <input class="form-control me-2" type="search" placeholder="Digite o nome do filme" aria-label="Search">
               <button class="btn btn-outline-success text-white border white" type="submit">Pesquisar</button>
@@ -69,21 +72,30 @@
       Nossa paixão pelo que fazemos é o combustível que nos impulsiona a inovar, criar e entregar serviços e produtos de excelência.</p>
 
 <section>
-  <div class="mb-3 ms-3 me-3" >
-    <label for="cx_nome" class="form-label">Digite seu nome</label>
-    <input type="name" class="form-control" id="t_nome" placeholder="CloudFilms">
+  <label for="cx_email" class="form-floating mb-1 ms-3 me-3">Digite seu nome:</label>
+  <div class="input-group flex-nowrap mb-3 ms-3 me-3" style="max-width: 1000px;">
+    <span class="input-group-text" id="addon-wrapping"><img src="image/pessoa.png" alt=""  width="30" height="30"></span>
+    <input type="text" class="form-control" placeholder="CloudFilms" aria-label="Username" aria-describedby="addon-wrapping">
   </div>
-  <div class="mb-3 ms-3 me-3" >
-    <label for="cx_email" class="form-label">Digite seu e-mail</label>
-    <input type="email" class="form-control" id="t_email" placeholder="cloudfilms@cloudfilms.com">
+  <label for="cx_email" class="form-floating mb-1 ms-3 me-3">Digite seu e-mail:</label>
+  <div class="input-group flex-nowrap mb-3 ms-3 me-3" style="max-width: 1000px;">
+    <span class="input-group-text" id="addon-wrapping"><img src="image/email.png" alt=""  width="30" height="30"></span>
+    <input type="text" class="form-control" placeholder="cloudfilms@cloudfilms.com" aria-label="Username" aria-describedby="addon-wrapping">
   </div>
-  <div class="mb-3 ms-3 me-3">
+  <div class="mb-3 ms-3 me-3" style="max-width: 1000px;">
     <label for="cx_mensagem" class="form-label">Mensagem</label>
     <textarea class="form-control" id="t_mensagem" rows="3" placeholder="Escreva a sua mensagem"></textarea>
+    
+    <div class="form-check mt-3">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Salvar informações
+  
+  
   </div>
 
   <a
-  class="btn text-white btn-floating m-3"
+  class="btn text-white btn-floating mt-3"
   style="background-color: #212529; height: 50px; width: 100px; font-size: 20px; align-content: center;"
   <a class="nav-link active text-white" href="">Enviar</a>
   <i class="bot_enviar"></i
