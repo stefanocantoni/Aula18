@@ -10,6 +10,12 @@ body{
 
 }
 
+.text_nav{
+font-weight: bold;
+padding: 5px;
+font-size: 20px;
+}
+
 .bt_home{
     width: 140px;
     height: auto;
