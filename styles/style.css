@@ -8,6 +8,287 @@ body{
 
 }
 
+.bt_home{
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .bt_home:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  
+  .bt_home:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  
+  .bt_home:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .bt_home:hover:before {
+    border-color: white;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .bt_home:hover:after {
+    border-color: white;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  
+  .bt_home {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+
+  .bt_contatos{
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .bt_contatos:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  
+  .bt_contatos:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  
+  .bt_contatos:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .bt_contatos:hover:before {
+    border-color: white;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .bt_contatos:hover:after {
+    border-color: white;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  
+  .bt_contatos {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+
+  .bt_info{
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .bt_info:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  
+  .bt_info:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  
+  .bt_info:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .bt_info:hover:before {
+    border-color: white;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .bt_info:hover:after {
+    border-color: white;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  
+  .bt_info {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+
+  .bt_categoria{
+    width: 140px;
+    height: auto;
+    float: left;
+    transition: .5s linear;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    margin: 0 5px;
+    background: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .bt_categoria:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+  }
+  
+  .bt_categoria:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+  }
+  
+  .bt_categoria:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .bt_categoria:hover:before {
+    border-color: white;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+  }
+  
+  .bt_categoria:hover:after {
+    border-color: white;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .5s;
+  }
+  
+  .bt_categoria {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+   
+
+
 /*COMEÇO DO TOP*/
 .t_top{ /*TOP 5 FILMES DA SEMANA*/
     display: grid;
@@ -19,6 +300,7 @@ body{
     font-size: 25px;
     padding: 10px;
 }
+
     
     .t_breve{ /*LANÇAMENTOS*/
         display: flex;
@@ -83,47 +365,270 @@ body{
             color: white;
         }
 
-        .link1{
-            display: flex;
-            position: absolute;
+/*Facebook*/
+        .facebook {
+            position: relative;
+            overflow: hidden;
+            border: 1px solid blue;
+            color: blue;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 15px;
+            padding: 18px 18px 17px;
+            border-radius: 15px;
             text-decoration: none;
-            color: #212529;
-            left: 40px;
-            top: 2940px;
-            font-size: 25px;
+            cursor: pointer;
+            background: #fff;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+           }
+           
+           .facebook span:first-child {
+            position: relative;
+            transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+            z-index: 10;
+           }
+           
+           .facebook span:last-child {
             color: white;
-        }
+            display: block;
+            position: absolute;
+            bottom: 0;
+            transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+            z-index: 100;
+            opacity: 0;
+            top: 50%;
+            left: 50%;
+            transform: translateY(225%) translateX(-50%);
+            height: 14px;
+            line-height: 13px;
+           }
+           
+           .facebook:after {
+            content: "";
+            position: absolute;
+            bottom: -50%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: blue;
+            transform-origin: bottom center;
+            transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+            transform: skewY(9.3deg) scaleY(0);
+            z-index: 50;
+           }
+           
+           .facebook:hover:after {
+            transform-origin: bottom center;
+            transform: skewY(9.3deg) scaleY(2);
+           }
+           
+           .facebook:hover span:last-child {
+            transform: translateX(-50%) translateY(-50%);
+            opacity: 1;
+            transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+           }
 
-        .link2{
-            display: flex;
-            position: absolute;
-            text-decoration: none;
-            color: #212529;
-            left: 380px;
-            top: 2940px;
-            font-size: 25px;
-            color: white;
-        }
 
-        .link3{
-            display: flex;
-            position: absolute;
+           /*Instagram*/
+        .instagram {
+            position: relative;
+            overflow: hidden;
+            border: 1px solid ;
+            color: rgb(230, 5, 192);
+            display: inline-block;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 15px;
+            padding: 18px 18px 17px;
+            border-radius: 15px;
             text-decoration: none;
-            color: #212529;
-            left: 720px;
-            top: 2940px;
-            font-size: 25px;
+            cursor: pointer;
+            background: #fff;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+           }
+           
+           .instagram span:first-child {
+            position: relative;
+            transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+            z-index: 10;
+           }
+           
+           .instagram span:last-child {
             color: white;
-        }
+            display: block;
+            position: absolute;
+            bottom: 0;
+            transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+            z-index: 100;
+            opacity: 0;
+            top: 50%;
+            left: 50%;
+            transform: translateY(225%) translateX(-50%);
+            height: 14px;
+            line-height: 13px;
+           }
+           
+           .instagram:after {
+            content: "";
+            position: absolute;
+            bottom: -50%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(230, 5, 192);
+            transform-origin: bottom center;
+            transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+            transform: skewY(9.3deg) scaleY(0);
+            z-index: 50;
+           }
+           
+           .instagram:hover:after {
+            transform-origin: bottom center;
+            transform: skewY(9.3deg) scaleY(2);
+           }
+           
+           .instagram:hover span:last-child {
+            transform: translateX(-50%) translateY(-50%);
+            opacity: 1;
+            transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+           }
 
-        .link4{
-            display: flex;
-            position: absolute;
+
+              /*Github*/
+        .github {
+            position: relative;
+            overflow: hidden;
+            border: 1px solid ;
+            color: rgb(83, 81, 81);
+            display: inline-block;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 15px;
+            padding: 18px 18px 17px;
+            border-radius: 15px;
             text-decoration: none;
-            color: #212529;
-            left: 1060px;
-            top: 2940px;
-            font-size: 25px;
+            cursor: pointer;
+            background: #fff;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+           }
+           
+           .github span:first-child {
+            position: relative;
+            transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+            z-index: 10;
+           }
+           
+           .github span:last-child {
             color: white;
-        }
+            display: block;
+            position: absolute;
+            bottom: 0;
+            transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+            z-index: 100;
+            opacity: 0;
+            top: 50%;
+            left: 50%;
+            transform: translateY(225%) translateX(-50%);
+            height: 14px;
+            line-height: 13px;
+           }
+           
+           .github:after {
+            content: "";
+            position: absolute;
+            bottom: -50%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(83, 81, 81);
+            transform-origin: bottom center;
+            transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+            transform: skewY(9.3deg) scaleY(0);
+            z-index: 50;
+           }
+           
+           .github:hover:after {
+            transform-origin: bottom center;
+            transform: skewY(9.3deg) scaleY(2);
+           }
+           
+           .github:hover span:last-child {
+            transform: translateX(-50%) translateY(-50%);
+            opacity: 1;
+            transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+           }
+
+                /*Coderhouse*/
+        .coderhouse {
+            position: relative;
+            overflow: hidden;
+            border: 1px solid ;
+            color: black;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 15px;
+            padding: 18px 18px 17px;
+            border-radius: 15px;
+            text-decoration: none;
+            cursor: pointer;
+            background: #fff;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+           }
+           
+           .coderhouse span:first-child {
+            position: relative;
+            transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+            z-index: 10;
+           }
+           
+           .coderhouse span:last-child {
+            color: white;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+            z-index: 100;
+            opacity: 0;
+            top: 50%;
+            left: 50%;
+            transform: translateY(225%) translateX(-50%);
+            height: 14px;
+            line-height: 13px;
+           }
+           
+           .coderhouse:after {
+            content: "";
+            position: absolute;
+            bottom: -50%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            transform-origin: bottom center;
+            transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+            transform: skewY(9.3deg) scaleY(0);
+            z-index: 50;
+           }
+           
+           .coderhouse:hover:after {
+            transform-origin: bottom center;
+            transform: skewY(9.3deg) scaleY(2);
+           }
+           
+           .coderhouse:hover span:last-child {
+            transform: translateX(-50%) translateY(-50%);
+            opacity: 1;
+            transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+           }
+    
     

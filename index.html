@@ -27,32 +27,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-5">
         <li class="nav-item">
-          <a class="nav-link active text-white" href="index.html">Home</a>
+          <a href="index.html"><button class="bt_home">HOME</button></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="contato.html">Contatos</a>
+          <a href="contato.html"><button class="bt_contatos">CONTATOS</button></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active text-white" href="infodosite.html">Termos&Privacidade</a>
+        <li class="nav-item me-5">
+          <a href="infodosite.html"><button class="bt_info">INFORMAÇÕES</button></a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white me-5" href="categorias" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Categorias
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item color" href="#">Ação</a></li>
-            <li><a class="dropdown-item" href="#">Terror</a></li>
-
-           <!-- <li><hr class="dropdown-divider"></li>-->
-
-            <li><a class="dropdown-item" href="#">Comédia</a></li>
-            <li><a class="dropdown-item" href="#">Romance</a></li>
-            <li><a class="dropdown-item" href="#">Suspense</a></li>
-            <li><a class="dropdown-item" href="#">Infantil</a></li>
-          </ul>
-        </li>
-      
       </ul>
+
+      <button class="bt_categoria me-5">CATEGORIAS</button>
+         
       <form class="d-flex "  role="search">
         <input class="form-control me-2" type="search" placeholder="Digite o nome do filme" aria-label="Search">
         <button class="btn btn-outline-secondary text-white border white" type="submit">Pesquisar</button>
@@ -218,10 +204,11 @@
     
     </section>
     
-    <section>
-    <h1 class="t_trailers">TRAILERS</h1>
     
-      <div class="row justify-content-around m-0">
+    <h1 class="t_trailers">TRAILERS</h1>
+
+    
+      <section class="row justify-content-around m-0">
         <div class="card" style="width: 18rem;" >
           <iframe src="https://www.youtube.com/embed/96RCGOaNuCM" frameborder="0" ></iframe>
             <div class="card-body">
@@ -264,7 +251,7 @@
                         <a href="https://www.adorocinema.com/filmes/filme-296168/" class="btn btn-dark">Saiba mais</a>
                       </div>
                     </div>
-
+                  </section>
 
     
 
@@ -276,40 +263,14 @@
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Social media -->
-        <section class="mb-4">
-          <!-- Facebook -->
-          <a
-            class="btn text-white btn-floating m-1"
-            style="background-color: #0d3ba0;"
-            <a class="nav-link active text-white" href="https://www.facebook.com/">Facebook</a>
-            <i class="fab fa-facebook-f"></i
-          ></a>
-    
-          <!-- Instagram -->
-          <a
-            class="btn text-white btn-floating m-1"
-            style="background-color: #ca1aca;"
-            <a class="nav-link active text-white" href="https://www.instagram.com/">Instagram</a>
-          <i class="fab fa-instagram"></i
-          ></a>
+        <section class="midias mb-4">
+        
 
-<!-- CoderHouse -->
-<a
-class="btn text-white btn-floating m-1"
-style="background-color: black;"
-<a class="nav-link active text-white" href="https://www.coderhouse.com.br/">Coderhouse</a>
-
-<i class="fab fa-coderhouse"></i
-></a>
-
-          <!-- Github -->
-          <a
-            class="btn text-white btn-floating m-1"
-            style="background-color: #4d4a4a;"
+          <button class="facebook ms-3 me-3"><span class="text">Facebook</span> <a href="https://www.facebook.com/"><span>Acessar</span></a></button>
+          <button class="instagram ms-3 me-3"><span class="text">Instagram</span>  <a href="https://www.instagram.com/"><span>Acessar</span></a></button>
+          <button class="github ms-3 me-3"><span class="text">Github</span> <a href="https://github.com/"><span>Acessar</span></a></button>
+          <button class="coderhouse ms-3 me-3""><span class="text">Coderhouse</span> <a href="https://www.coderhouse.com.br/"><span>Acessar</span></a></button>
           
-            <a class="nav-link active text-white" href="https://github.com/">GitHub</a>
-            ><i class="fab fa-github"></i
-          ></a>
         </section>
   
       </div>
@@ -321,7 +282,8 @@ style="background-color: black;"
       </div>
       <!-- Copyright -->
     </footer>
-    
 
+
+    
 </body>
   </html>
