@@ -420,17 +420,7 @@ font-size: 20px;
     
     
         
-        .rodape{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            justify-content: center;
-            color: white;
-            font-size: 7px;
-            left: 440px;
-            top: 10px;
-            background-color: #212529;
-            color: white;
-        }
+     
 
 /*Facebook*/
         .facebook {
