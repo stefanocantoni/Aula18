@@ -282,6 +282,7 @@
     border: none;
     background: transparent;
   }
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 
   .input-wrapper {
@@ -308,7 +309,6 @@
   
   .input::placeholder,
   .input {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 17px;
   }
   
@@ -367,7 +367,8 @@ justify-content: center;
 .apre_contato{
     border: 1px solid hwb(0 50% 50% / 0.185);
     border-radius: 8px;
-    color: black;
+    color: white;
+    background-color: #212529;
     display: flex;
     margin-top: 20px;
     text-align: justify;
@@ -375,7 +376,7 @@ justify-content: center;
     margin-left: 15px;
     margin-right: 15px;
     padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 
@@ -391,7 +392,7 @@ justify-content: center;
   
   .checkbox-wrapper .terms-label .label-text {
     margin-left: 10px;
-    margin-top: 20 px;
+    margin-top: 20px;
   }
   
   .checkbox-wrapper .checkbox-svg {
@@ -471,6 +472,7 @@ justify-content: center;
   .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
   }
+  
   
 
 
